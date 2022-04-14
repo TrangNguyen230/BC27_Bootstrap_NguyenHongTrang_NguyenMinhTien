@@ -1,32 +1,89 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
 
-.header .container{
-    margin-top: 30px;
+.header {
+  z-index: 1;
 }
 
-.header .navbar{
-    flex-wrap: nowrap
+.header .container {
+  margin-top: 30px;
 }
 
-.header .navbar .navbar-brand{
-    font-size: 40px;
-    
+.header .navbar {
+  flex-wrap: nowrap;
 }
 
-.header .navbar form input{
-    padding: 10px 20px;
-    outline-offset: 0px
+.header .navbar .navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
 }
 
-.header .navbar form i{
-    position: relative;
-    top: 13px;
-    right: 35px;
+.header .navbar form input {
+  padding: 10px 20px;
+  outline-offset: 0px;
 }
 
-.header .dropdown-toggle::after{
-    display: none;
+.header .navbar form i {
+  position: relative;
+  top: 13px;
+  right: 35px;
+}
+
+.header .dropdown-toggle::after {
+  display: none;
+}
+
+.carousel {
+  background-image: linear-gradient(
+      to right,
+      rgba(255,102,0,1),
+      rgba(255,102,0,0.05)
+    ),
+    url(../img-Home/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 750px;
+  color: #fff;
+
+}
+
+.carousel .container {
+  padding-top: 200px;
+}
+
+.carousel .container .col h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.carousel .container .col button {
+  background: none;
+}
+
+.carousel .container .col button:hover{
+    background-color: #fff;
+    color: #ff6600 !important;
+}
+
+.about .container{
+    padding: 100px 0 100px;
+}
+
+.about .row .item-left span{
+    font-family: 'Pacifico', cursive;
+    color: #ff6600;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.about .row .item-left h1{
+    font-weight: 600;
+}
+
+.about .row .item-right{
+    font-size: 18px;
+    color: rgba(22, 28, 45, 0.7);
 }

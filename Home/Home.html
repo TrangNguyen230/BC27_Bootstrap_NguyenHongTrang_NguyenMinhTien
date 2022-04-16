@@ -24,14 +24,14 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <header class="header position-absolute top-0 start-0 w-100">
+    <header class="header position-absolute top-0 start-0 w-100" id="home">
       <div class="container">
         <nav class="navbar navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand text-white">Diner</a>
             <form class="d-flex">
               <input
-                class="me-2 rounded-3 border-0"
+                class="rounded-3 border-0"
                 type="search"
                 placeholder="Search here..."
                 aria-label="Search"
@@ -39,6 +39,7 @@
               <i class="fa-solid fa-magnifying-glass"></i>
             </form>
           </div>
+          <i class="fa-regular fa-moon fs-3 text-white pe-2"></i>
 
           <div class="dropdown">
             <button
@@ -51,9 +52,15 @@
               <i class="fa-solid fa-bars fs-2 text-white"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Services</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">404</a></li>
+              <li><a class="dropdown-item" href="#">Landing Page</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Shot Codes</a></li>
+              <li><a class="dropdown-item" href="#">Email</a></li>
             </ul>
           </div>
         </nav>
@@ -62,7 +69,7 @@
 
     <section class="carousel">
       <div class="container d-flex flex-column">
-        <div class="col w-50 ">
+        <div class="col w-50">
           <h1>The Only Thing We Love More Than Food Is You!</h1>
           <div class="py-5">
             <span
@@ -84,25 +91,139 @@
 
     <section class="about">
       <div class="container">
-      <div class="row d-flex">
-        <div class="item-left w-50 pe-5">
-          <span>About Us</span>
-          <h1>We found our creative space that is open for you.</h1>
-        </div>
+        <div class="row d-flex">
+          <div class="item-left w-50 pe-5">
+            <span>About Us</span>
+            <h1>We found our creative space that is open for you.</h1>
+          </div>
 
-        <div class="item-right w-50">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem magnam sint veritatis eaque aut ab, cum at. Modi, nam veniam ex, maiores aliquid tenetur est eveniet sequi, fugit ipsa corrupti.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe pariatur expedita explicabo quae similique praesentium earum fuga porro vitae ipsam omnis nesciunt magnam sunt modi ab, ipsum maiores. Fugit.
-          </p>
+          <div class="item-right w-50">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Exercitationem magnam sint veritatis eaque aut ab, cum at. Modi,
+              nam veniam ex, maiores aliquid tenetur est eveniet sequi, fugit
+              ipsa corrupti.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est saepe
+              pariatur expedita explicabo quae similique praesentium earum fuga
+              porro vitae ipsam omnis nesciunt magnam sunt modi ab, ipsum
+              maiores. Fugit.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
     </section>
-    <section></section>
-    <section></section>
+
+    <section class="intro d-flex">
+      <div class="intro-left"></div>
+
+      <div class="intro-right w-50 text-white">
+        <div class="item">
+          <h2>More than 3000 Restaurants</h2>
+          <h1 class="text-black mb-3">Book a table easly at the best price</h1>
+          <p class="fw-light">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
+            impedit, velit accusantium ipsa, veritatis odio consectetur
+            quibusdam, repudiandae excepturi sunt rerum tempora?
+          </p>
+          <div class="best d-flex">
+            <div class="best-left w-50 d-flex flex-column pe-5">
+              <i class="fa-solid fa-thumbs-up rounded-3 my-4"></i>
+              <a href="#">Best Deals</a>
+              <p class="fw-light"
+                >Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p
+              >
+            </div>
+
+            <div class="best-right w-50 d-flex flex-column pe-5">
+              <i class="fa-solid fa-utensils rounded-3 my-4"></i>
+              <a href="#">Best Food</a>
+              <p class="fw-light"
+                >Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+      <header class="title pb-5 text-center">
+        <span>What's New</span>
+        <h1>Popular Categories</h1>
+      </header>
+
+      <main class="main">
+          <div class="row d-flex flex-wrap">
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g1.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Vegetarian</span>
+              <p class="text-warning fs-5">$350</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g2.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Drinks</span>
+              <p class="text-warning fs-5">$550</p>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g3.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Lunch</span>
+              <p class="text-warning fs-5">$650</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g4.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Bakery</span>
+              <p class="text-warning fs-5">$550</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g5.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Desserts</span>
+              <p class="text-warning fs-5">$750</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="item ">
+              <img src="./img-Home/g6.jpg" alt="">
+            </div>
+            <div class="text ps-5 pb-3">
+              <span class="text-white fw-bold">Pizza</span>
+              <p class="text-warning fs-5">$850</p>
+            </div>
+          </div>
+
+         
+        </div>
+      </main>
+      </div>
+    </section>
+
     <section></section>
     <section></section>
     <section></section>

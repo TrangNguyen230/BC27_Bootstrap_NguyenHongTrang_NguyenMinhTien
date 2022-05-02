@@ -11,6 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -21,8 +22,23 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+      integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
+
   <body>
     <header class="header position-absolute top-0 start-0 w-100" id="home">
       <div class="container">
@@ -131,17 +147,17 @@
             <div class="best-left w-50 d-flex flex-column pe-5">
               <i class="fa-solid fa-thumbs-up rounded-3 my-4"></i>
               <a href="#">Best Deals</a>
-              <p class="fw-light"
-                >Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p
-              >
+              <p class="fw-light">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
             </div>
 
             <div class="best-right w-50 d-flex flex-column pe-5">
               <i class="fa-solid fa-utensils rounded-3 my-4"></i>
               <a href="#">Best Food</a>
-              <p class="fw-light"
-                >Lorem ipsum viverra feugiat. Pellen tesque libero justo.</p
-              >
+              <p class="fw-light">
+                Lorem ipsum viverra feugiat. Pellen tesque libero justo.
+              </p>
             </div>
           </div>
         </div>
@@ -150,84 +166,335 @@
 
     <section class="menu">
       <div class="container">
-      <header class="title pb-5 text-center">
-        <span>What's New</span>
-        <h1>Popular Categories</h1>
-      </header>
+        <header class="title pb-5 text-center">
+          <span>What's New</span>
+          <h1>Popular Categories</h1>
+        </header>
 
-      <main class="main">
+        <main class="main">
           <div class="row d-flex flex-wrap">
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g1.jpg" alt="">
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g1.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Vegetarian</span>
+                <p class="text-warning fs-5">$350</p>
+              </div>
             </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Vegetarian</span>
-              <p class="text-warning fs-5">$350</p>
+
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g2.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Drinks</span>
+                <p class="text-warning fs-5">$550</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g3.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Lunch</span>
+                <p class="text-warning fs-5">$650</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g4.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Bakery</span>
+                <p class="text-warning fs-5">$550</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g5.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Desserts</span>
+                <p class="text-warning fs-5">$750</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="item">
+                <img src="./img-Home/g6.jpg" alt="" />
+              </div>
+              <div class="text ps-5 pb-3">
+                <span class="text-white fw-bold">Pizza</span>
+                <p class="text-warning fs-5">$850</p>
+              </div>
             </div>
           </div>
-
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g2.jpg" alt="">
-            </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Drinks</span>
-              <p class="text-warning fs-5">$550</p>
-            </div>
-          </div>
-
-
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g3.jpg" alt="">
-            </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Lunch</span>
-              <p class="text-warning fs-5">$650</p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g4.jpg" alt="">
-            </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Bakery</span>
-              <p class="text-warning fs-5">$550</p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g5.jpg" alt="">
-            </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Desserts</span>
-              <p class="text-warning fs-5">$750</p>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="item ">
-              <img src="./img-Home/g6.jpg" alt="">
-            </div>
-            <div class="text ps-5 pb-3">
-              <span class="text-white fw-bold">Pizza</span>
-              <p class="text-warning fs-5">$850</p>
-            </div>
-          </div>
-
-         
-        </div>
-      </main>
+        </main>
       </div>
     </section>
 
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section class="option py-5" id="option">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-users fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">01</p>
+                  <a href="#option">
+                    <h1>Soup</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-shield-halved fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">02</p>
+                  <a href="#option">
+                    <h1>Drinks</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-temperature-full fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">03</p>
+                  <a href="#option">
+                    <h1>Pizza</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-hands-asl-interpreting fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">04</p>
+                  <a href="#option">
+                    <h1>Breakfast</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-paintbrush fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">05</p>
+                  <a href="#option">
+                    <h1>Lunch</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 p-3">
+            <div
+              class="item p-5 border border-1 border-grey shadow-sm p-3 bg-body"
+            >
+              <div class="item-top d-flex">
+                <div class="left w-25 me-3 mb-4">
+                  <i class="fa fa-eraser fs-4 text-center"></i>
+                </div>
+                <div class="right w-75">
+                  <p class="mb-auto fs-5">06</p>
+                  <a href="#option">
+                    <h1>Dinner</h1>
+                  </a>
+                </div>
+              </div>
+              <div class="item-btm">
+                <p>
+                  Lorem ipsum dolor sit amet conse adipisicing elit. At
+                  explicabo nisi adipisci neque voluptatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel-2 text-white">
+      <div class="container">
+        <div class="item text-center">
+          <h1>Deliciousness jumping into the mouth.</h1>
+          <div class="button mt-5">
+            <a href="#">
+              <button
+                class="px-5 py-3 me-4 border border-white border-2 rounded-3 text-white fw-bolder bg-transparent"
+                id="button-left"
+              >
+                Read More
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </a>
+            <a href="#">
+              <button
+                class="px-5 py-3 rounded-3 text-white fw-bold"
+                id="button-right"
+              >
+                Contact Us
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="numberCount">
+      <div class="container reveal">
+        <div class="row">
+          <div class="col-ms-3 lg-6 w-25 px-3">
+            <div class="item text-center py-5">
+              <i class="fa fa-building fs-3 text-white mb-3"></i>
+              <div id="branch" class="fw-bold fs-1">
+                <p>15,100</p>
+              </div>
+              <div class="fs-6">
+                <span>Branches</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-ms-3 lg-6 w-25 px-3">
+            <div class="item text-center py-5">
+              <i class="fa fa-utensils fs-3 text-white mb-3"></i>
+              <div id="food" class="fw-bold fs-1">
+                <p>19,256</p>
+              </div>
+              <div class="fs-6">
+                <span>Food Items</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-ms-3 lg-6 w-25 px-3">
+            <div class="item text-center py-5">
+              <i class="fa fa-users fs-3 text-white mb-3"></i>
+              <div id="chef" class="fw-bold fs-1">
+                <p>12,100</p>
+              </div>
+              <div class="fs-6">
+                <span>Chefs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-ms-3 lg-6 w-25 px-3">
+            <div class="item text-center py-5">
+              <i class="fa-regular fa-face-smile fs-3 text-white mb-3"></i>
+              <div id="customer" class="fw-bold fs-1">
+                <p>2,560</p>
+              </div>
+              <div class="fs-6">
+                <span>happy Customers</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video pb-5">
+      <div class="container text-center">
+        <div class="img w-75 m-auto rounded-3">
+          <div class="item">
+            <a href="#videolink" id="popup">
+              <div class="border">
+                <i class="fa-solid fa-play"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="mfp-hide mx-auto my-0"
+          id="videolink"
+          style="max-width: 750px"
+        >
+          <iframe
+            src="https://www.youtube.com/embed/TWQPXdgHTnU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
     <section></section>
     <footer></footer>
     <script
@@ -235,5 +502,62 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function easeOutExpo(x) {
+        return x === 1 ? 1 : 1 - Math.pow(2, -10 * x);
+      }
+
+      function animateNumber(
+        finalNumber,
+        duration = 10000,
+        startNumber = 0,
+        callback
+      ) {
+        const startTime = performance.now();
+        function updateNumber(currentTime) {
+          const elapsedTime = currentTime - startTime;
+          if (elapsedTime > duration) {
+            callback(finalNumber);
+          } else {
+            const timeRate = (1.0 * elapsedTime) / duration;
+            const numberRate = easeOutExpo(timeRate);
+            const currentNumber = Math.round(numberRate * finalNumber);
+            callback(currentNumber);
+            requestAnimationFrame(updateNumber);
+          }
+        }
+        requestAnimationFrame(updateNumber);
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        animateNumber(15100, 10000, 0, function (number) {
+          const formattedNumber = number.toLocaleString();
+          document.getElementById("branch").innerText = formattedNumber;
+        });
+
+        animateNumber(19256, 10000, 0, function (number) {
+          const formattedNumber = number.toLocaleString();
+          document.getElementById("food").innerText = formattedNumber;
+        });
+
+        animateNumber(12100, 10000, 0, function (number) {
+          const formattedNumber = number.toLocaleString();
+          document.getElementById("chef").innerText = formattedNumber;
+        });
+
+        animateNumber(2560, 10000, 0, function (number) {
+          const formattedNumber = number.toLocaleString();
+          document.getElementById("customer").innerText = formattedNumber;
+        });
+      });
+    </script>
+
+    <script>
+      $("#popup").magnificPopup({
+        type: "inline",
+        midClick: true,
+      });
+    </script>
   </body>
 </html>

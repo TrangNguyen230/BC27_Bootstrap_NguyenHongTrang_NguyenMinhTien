@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  h1 {
+    font-weight: 600;
+  }
+
+  p{
+    font-size: 18px;
+    color: rgb(22, 28, 45, 0.7);
+  }
+  
+  .header {
+    z-index: 1;
+  }
+  
+  .header .container {
+    margin-top: 30px;
+  }
+  
+  .header .navbar {
+    flex-wrap: nowrap;
+  }
+  
+  .header .navbar .navbar-brand {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .header .navbar form input {
+    padding: 10px 40px 10px 20px;
+    outline-offset: 0px;
+  }
+  
+  .header .navbar form i {
+    position: relative;
+    top: 13px;
+    right: 35px;
+  }
+  
+  .header .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .header .btn:focus {
+    box-shadow: none;
+  }
+  
+  .header .dropdown-menu.show {
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+  
+  .header .dropdown-item:active {
+    background-color: transparent;
+    font-weight: 700;
+  }
+  
+  .header .dropdown-item {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .header .dropdown-item:hover {
+    color: #ff6600;
+  }
+  
+  .carousel {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 102, 0, 0.98),
+        rgba(0, 0, 0, 0.8)
+      ),
+      url(./../img-About/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 350px;
+    color: #fff;
+    
+  }
+  
+  .carousel .container {
+    padding-top: 200px;
+  }
+
+  .carousel .container .breadcrumb{
+    padding-left: 40%;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .carousel .container .breadcrumb a{
+      color: #ff6600;
+  }
+
+  .carousel .container .breadcrumb i{
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .story .container header span{
+    font-family: "Pacifico", cursive;
+    color: #ff6600;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .story .story-top .story-top-left img{
+    width: 600px;
+    height: 320px;
+  }
+
+
+  .story .story-top .story-top-right button{
+    background-color: #ff6600;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+
+  .story .story-top .story-top-right button:hover{
+    opacity: 0.8;
+    transition: 0.3s linear
+  }
+
+  .story .story-bottom span{
+      font-size: 18px;
+      color: #ff6600;
+      font-weight: 700;
+  }
+
+  .story .story-bottom .col-4 .item{
+    transform: translateY(50%);
+  }
+
+  .story .story-bottom span:hover{
+      color: #ffc600;
+  }
+
+  .skill{
+      background-color: #f7f7f7;
+      padding: 100px 0;
+  }
+
+  .skill .container .col-5 .title{
+    font-family: "Pacifico", cursive;
+    color: #ff6600;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  .skill .container .row .col-5 .criteria{ 
+    font-weight: 600;
+    font-size: 18px
+  }
+
+  .skill .col-5 .progress{
+      background-color: rgba(22, 28, 45, 0.7);
+  }
+
+  .skill .col-5 .progress-bar{
+      background-color: #ff6600;
+  }
+
+  .skill .col-7 img{
+    width: 340px;
+    height: 395px;
+    border-radius: 5px;
+  }
+
+  .our-team .container span{
+    font-family: "Pacifico", cursive;
+    color: #ff6600;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .our-team .container .image{
+    position: relative;
+  }
+
+  .our-team .container .card-img-top{
+    border-radius: 8px; 
+  }
+
+  .our-team .container .info{
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%); 
+    transition: all 0.5s ;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .our-team .container .image:hover .info{
+    opacity: 1;
+    visibility: visible;
+
+  }
+
+  .our-team .container .info i{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(157,157,157,0.5);
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    transition: 0.3s ease-in-out ;
+}
+  
+.our-team .container .info i:hover{
+  color: #ff6600;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.our-team .container .item .card-body h4{
+  font-weight: 700;
+}
+
+.our-team .container .item:hover h4{
+  color: #ff6600;
+  cursor: pointer;
+}

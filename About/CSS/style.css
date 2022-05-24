@@ -115,8 +115,8 @@
   }
 
   .story .story-top .story-top-left img{
-    width: 600px;
-    height: 320px;
+    width: 100%;
+    height: auto;
   }
 
 
@@ -150,29 +150,29 @@
       padding: 100px 0;
   }
 
-  .skill .container .col-5 .title{
+  .skill .container .pe-5 .title{
     font-family: "Pacifico", cursive;
     color: #ff6600;
     font-weight: 400;
     font-size: 20px;
   }
   
-  .skill .container .row .col-5 .criteria{ 
+  .skill .container .row .pe-5 .criteria{ 
     font-weight: 600;
     font-size: 18px
   }
 
-  .skill .col-5 .progress{
+  .skill .pe-5 .progress{
       background-color: rgba(22, 28, 45, 0.7);
   }
 
-  .skill .col-5 .progress-bar{
+  .skill .pe-5 .progress-bar{
       background-color: #ff6600;
   }
 
-  .skill .col-7 img{
-    width: 340px;
-    height: 395px;
+  .skill .col-lg-7 img{
+    width: 100%;
+    height: auto;
     border-radius: 5px;
   }
 
@@ -232,4 +232,59 @@
 .our-team .container .item:hover h4{
   color: #ff6600;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  
+
+  .story .story-top-right{
+    margin-top: 30px;
+  }
+
+  .story .story-bottom .col-lg-8{
+    margin-top: 30px;
+  }
+
+  .skill .col-lg-7{
+    margin-top: 30px;
+  }
+
+  .our-team .col-lg-4{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel {
+    height: 250px;
+  }
+
+  .carousel .container .breadcrumb{
+    margin-top: -50px;
+  }
+
+  .story .story-top .story-top-left img{
+    height: 300px
+  }
+
+
+  
+}
+
+@media screen and (max-width: 576px) {
+  p{
+    font-size: 16px !important;
+  }
+
+  .header .navbar form input,
+  .header .navbar form i{
+    display: none;
+  }
+
+
+
 }

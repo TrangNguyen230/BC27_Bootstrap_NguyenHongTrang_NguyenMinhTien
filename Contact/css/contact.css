@@ -209,7 +209,7 @@
 
 
 
-.icon {
+  .icon {
     background-color: #0e1325;
     width: 90px;
     height: 350px;
@@ -217,9 +217,15 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     position: fixed;
+    z-index: 10;
     top: 80px;
     right: 0px;
   }
+  
+  .icon a p{
+    color: #9095a7 !important
+  }
+  
   .icon a {
     text-decoration: none;
     color: #9095a7;
@@ -253,18 +259,18 @@
   .footer .row a:hover {
     color: #ee6f2d;
   }
-  .footer .row .col-2 {
+  .footer .row .col-lg-2 {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .footer .row .col-2 a {
+  .footer .row .col-lg-2 a {
     display: block;
     padding-top: 7%;
   }
-  .footer .row .col-4 a {
+  .footer .row .col-lg-4 a {
     padding-left: 10px;
   }
-  .footer .row .col-4 i {
+  .footer .row .col-lg-4 i {
     background-color: white;
     width: 40px;
     height: 40px;
@@ -274,25 +280,25 @@
     padding-top: 3.5%;
     border-radius: 5px;
   }
-  .footer .row .col-4 i:hover {
+  .footer .row .col-lg-4 i:hover {
     background-color: #ee6f2d;
     color: white;
   }
-  .footer .row .col-4 input {
+  .footer .row .col-lg-4 input {
     margin-top: 20px;
     padding-left: 20px;
     border-color: transparent;
   }
-  .footer .row .col-4 button {
+  .footer .row .col-lg-4 button {
     margin-top: 20px;
-    width: 360px;
+    width: 100%;
     height: 50px;
     border-radius: 12px;
     color: white;
     background-color: #ee6f2d;
     border-color: transparent;
   }
-  .footer .row .col-4 button:hover {
+  .footer .row .col-lg-4 button:hover {
     background-color: #bf5924;
   }
   .footer .row .copy-right {
@@ -300,20 +306,20 @@
     margin-top: 50px;
     padding-left: 12px;
   }
-  .footer .row .copy-right .col-4 {
+  .footer .row .copy-right .col-lg-4 {
     padding-left: 12px;
   }
-  .footer .row .copy-right .col-8 p a {
+  .footer .row .copy-right .col-lg-8 p a {
     color: #ee6f2d;
   }
-  .footer .row .copy-right .col-8 p a:hover {
+  .footer .row .copy-right .col-lg-8 p a:hover {
     color: white;
   }
   .clear-both {
     clear: both;
   }
-  .video  img{
-    width: 900px;
-    height: 450px;
-    margin-left: 25%;
-  }
+  
+  
+  
+
+  

@@ -87,12 +87,13 @@
 
 .button {
   width: 160px;
-  height: 50px;
+  height: 60px;
   border-radius: 12px;
   color: white;
   background-color: #ee6f2d;
   border-color: transparent;
-  margin-right: 350px;
+  margin-right: 20%;
+
 }
 .button:hover{
   background-color: #f58b52;

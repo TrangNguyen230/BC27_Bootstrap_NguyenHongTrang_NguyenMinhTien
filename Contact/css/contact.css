@@ -99,12 +99,12 @@
   display: flex;
 
 }
-.portfolio .port-body .container .row .col-4 input {
+.portfolio .port-body .container .row .col-lg-4 input {
   height: 50px;
   background-color: #f8f8f8;
   border-color: transparent;
 }
-.portfolio .port-body .container .row .col-4 input:focus {
+.portfolio .port-body .container .row .col-lg-4 input:focus {
   outline: none !important;
     border-color: #ee6f2d;
     background-color: white;
@@ -114,17 +114,17 @@
   width: 68%;
   margin-left: 16%;
 }
-.portfolio .port-body .container .row .col-3 , .portfolio .port-body .container .row .col-9{
+.portfolio .port-body .container .row .col-lg-3 , .portfolio .port-body .container .row .col-lg-9{
 
   float: left;
   margin: 0;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.portfolio .port-body .container .row .col-3 {
+.portfolio .port-body .container .row .col-lg-3 {
   font-size: 20px;
 }
-.portfolio .port-body .container .row .col-3 h2 {
+.portfolio .port-body .container .row .col-lg-3 h2 {
   font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -133,27 +133,27 @@
     display: block;
     font-family: 'Pacifico', cursive;
 }
-.portfolio .port-body .container .row .col-3 .phone-number ,
-.portfolio .port-body .container .row .col-3 .address-email,
-.portfolio .port-body .container .row .col-3 .office-address {
+.portfolio .port-body .container .row .col-lg-3 .phone-number ,
+.portfolio .port-body .container .row .col-lg-3 .address-email,
+.portfolio .port-body .container .row .col-lg-3 .office-address {
   display: grid;
     grid-template-columns: 20px auto;
     grid-column-gap: 20px;
    padding-bottom: 20px;
 }
 
-.portfolio .port-body .container .row .col-3 .icon-left {
+.portfolio .port-body .container .row .col-lg-3 .icon-left {
  text-align: center;
 }
-.portfolio .port-body .container .row .col-3 .icon-left i {
+.portfolio .port-body .container .row .col-lg-3 .icon-left i {
   color: #fd5900;
 }
-.portfolio .port-body .container .row .col-3 a {
+.portfolio .port-body .container .row .col-lg-3 a {
   text-decoration: none;
   font-size: 18px;
   color: black;
 }
-.portfolio .port-body .container .row .col-3 a:hover {
+.portfolio .port-body .container .row .col-lg-3 a:hover {
   text-decoration: underline;
 }
 .portfolio .port-head {

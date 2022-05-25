@@ -110,7 +110,7 @@
     margin: 0;
     padding-right: 4%;
 }
-.portfolio-body .row .col-6 {
+.portfolio-body .row .col-lg-6 {
   padding-bottom: 50px;
   padding-left: 20px;
 }
@@ -198,13 +198,13 @@ font-size: 27px;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-.portfolio-right .latest-recipes .col-6 {
+.portfolio-right .latest-recipes .col-lg-6 {
   padding-left: 12px;
 }
-.portfolio-right .latest-recipes .col-6 img{
+.portfolio-right .latest-recipes .col-lg-6 img{
 border-radius: 10px;
 }
-.portfolio-right .latest-recipes .col-6 a {
+.portfolio-right .latest-recipes .col-lg-6 a {
   text-decoration: none;
   color: black;
   font-size: 17px;

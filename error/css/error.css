@@ -31,6 +31,30 @@
 .header .dropdown-toggle::after {
   display: none;
 }
+
+.header .btn:focus {
+  box-shadow: none;
+}
+
+.header .dropdown-menu.show {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.header .dropdown-item:active {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.header .dropdown-item {
+  color: #fff;
+  font-weight: 600;
+}
+
+.header .dropdown-item:hover {
+  color: #ff6600;
+}
+
 .carousel {
   background-image: linear-gradient(
       to right,

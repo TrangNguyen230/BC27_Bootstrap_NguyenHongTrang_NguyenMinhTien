@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="./css/blog.css" />
+  </head>
+  <body>
+    <header class="header position-absolute top-0 start-0 w-100" id="home">
+      <div class="container">
+        <nav class="navbar navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white"><b>Diner</b></a>
+            <form class="d-flex">
+              <input
+                class="rounded-3 border-0"
+                type="search"
+                placeholder="Search here..."
+                aria-label="Search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+          </div>
+          <i class="fa-regular fa-moon fs-3 text-white pe-2"></i>
+
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bars fs-2 text-white"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="./../Home/Home.html">Home</a></li>
+              <li><a class="dropdown-item" href="./../About/index.html">About</a></li>
+              <li><a class="dropdown-item" href="./../Service/index.html">Services</a></li>
+              <li><a class="dropdown-item" href="./../Blog/blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="./../error/error.html">404</a></li>
+              <li><a class="dropdown-item" href="#">Landing Page</a></li>
+              <li><a class="dropdown-item" href="./../Contact/contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Shot Codes</a></li>
+              <li><a class="dropdown-item" href="#">Email</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="carousel">
+      <div class="carousel-text">
+        <a href="" style="text-decoration: none"> <b>Home</b> </a>
+        <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+        <b>Blog</b>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="portfolio-header">
+        <h2>Latest Posts</h2>
+        <h1>Blog Posts</h1>
+      </div>
+      <div class="portfolio-body">
+        <div class="row portfolio-left">
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g1.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Reciepe</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>10 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team3.jpg" alt="" />
+                <b>Rashed Kabir</b>
+                <a href="" class="read-more">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g2.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Soup</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>10 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team1.jpg" alt="" />
+                <b>Jannatul Ferdous</b>
+                <a href="" class="read-more annatul-Ferdous">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g3.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Lunch</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>15 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team2.jpg" alt="" />
+                <b>Rashed Kabir</b>
+                <a href="" class="read-more">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g4.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Dinner</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>15 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team3.jpg" alt="" />
+                <b>Rashed Kabir</b>
+                <a href="" class="read-more">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g5.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Soup</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>15 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team1.jpg" alt="" />
+                <b>Rashed Kabir</b>
+                <a href="" class="read-more">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="img">
+              <img src="./blog-img/g6.jpg" style="width: 100%" alt="" />
+              <div class="food-name">
+                <button>Drinks</button>
+                <i class="fa-solid fa-clock"></i>
+                <span>15 Min Cook</span>
+              </div>
+            </div>
+            <div class="text">
+              <a href="" class="text-header">
+                <b>The Best Cookie Recipes To Bake This Weekend</b>
+              </a>
+              <p>
+                Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                vitae sit.
+              </p>
+              <a href="" class="name">
+                <img src="./blog-img/team2.jpg" alt="" />
+                <b>Rashed Kabir</b>
+                <a href="" class="read-more">
+                  <b>Read More</b>
+                  <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
+                </a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-right">
+          <div class="row latest-recipes" style="width: 100%; margin: 0">
+            <div class="latest-recipes-header">
+              <b>Latest recipes</b>
+            </div>
+            <div class="col-6">
+              <img src="./blog-img/banner1.jpg" width="100%" />
+              <a href="">
+                <b>How to make capuccino</b>
+              </a>
+            </div>
+            <div class="col-6">
+              <img src="./blog-img/banner2.jpg" width="100%" />
+              <a href="">
+                <b>Starbucks blond coffee</b>
+              </a>
+            </div>
+            <div class="col-6">
+              <img src="./blog-img/banner3.jpg" width="100%" />
+              <a href="">
+                <b
+                  >The best<br />
+                  Cookie recipes to bake</b
+                >
+              </a>
+            </div>
+            <div class="col-6">
+              <img src="./blog-img/banner4.jpg" width="100%" />
+              <a href="">
+                <b>How to make capuccino</b>
+              </a>
+            </div>
+          </div>
+          <div class="trending-posts">
+            <div class="trending-posts-header">
+              <b>Trending posts</b>
+            </div>
+            <div class="posts-top">
+              <img src="./blog-img/g3.jpg" alt="" width="35%" />
+              <div class="posts-text">
+                <a href="">
+                  <b> 12 Curry Recipes You’ll Ever Need </b>
+                </a>
+                <p>Feb 4, 2021</p>
+              </div>
+            </div>
+            <div class="posts-mid">
+              <img src="./blog-img/g3.jpg" alt="" width="35%" />
+              <div class="posts-text">
+                <a href="">
+                  <b> Sweet Strawberry Dink for Summer </b>
+                </a>
+                <p>Feb 5, 2021</p>
+              </div>
+            </div>
+            <div class="posts-bot">
+              <img src="./blog-img/g6.jpg" alt="" width="35%" />
+              <div class="posts-text">
+                <a href="">
+                  <b> How to make easiest pancakes ever </b>
+                </a>
+                <p>Feb 6, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="categories">
+            <div class="categories-header">
+              <b>Categories</b>
+            </div>
+            <ul class="categories-body">
+              <li><a href="">Desserts</a></li>
+              <li><a href="">Cakes and Biscuits</a></li>
+              <li><a href="">Food recipes</a></li>
+            </ul>
+          </div>
+          <div class="advertisement">
+            <b>Advertisement</b>
+            <img src="./blog-img/g1.jpg" alt="" width="95%" />
+          </div>
+        </div>
+        
+      </div>
+      <div class="button">
+        <button class="button-mot">1</button>
+        <button class="button-hai">2</button>
+        <button class="button-ba">3</button>
+        <button class="button-next">next<i class="fa-solid fa-angle-right" style="margin: 3px"></i></button>
+      </div>
+      <div class="clear-both"></div>
+    </section>
+    <section class="icon" style="display: block">
+      <a class="angles-right" href="">
+        <i class="fa-solid fa-angles-right"></i>
+        <p></p>
+      </a>
+      <a class="arrow-left" href="">
+        <i class="fa-solid fa-arrow-left"></i>
+        <p>Back</p>
+      </a>
+      <a class="download" href="">
+        <i class="fa-solid fa-download"></i>
+        <p>Download</p>
+      </a>
+      <a class="buy" href="">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>Buy</p>
+      </a>
+      
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <div class="col-4">
+            <h1>Diner</h1>
+            <p>
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet Semper at elit.
+            </p>
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="col-2">
+            <h1>Usefull Links</h1>
+            <a href=""> About Us </a>
+            <a href=""> Services </a>
+            <a href=""> Blog posts </a>
+            <a href=""> Careers </a>
+            <a href=""> Contact us </a>
+          </div>
+          <div class="col-2">
+            <h1>More Info</h1>
+            <a href=""> History </a>
+            <a href=""> Vision & Values </a>
+            <a href=""> Awards </a>
+            <a href=""> Media </a>
+            <a href=""> Support </a>
+          </div>
+          <div class="col-4">
+            <h1>Subscribe to our Newsletter</h1>
+            <p>
+              Enter your email and receive the latest news, updates and special
+              offers from us.
+            </p>
+            <input
+              type="search"
+              placeholder="Your Email Address"
+              style="width: 360px; height: 50px; border-radius: 12px"
+            />
+            <button>Subscibe Now</button>
+          </div>
+          <div class="copy-right">
+            <div class="col-8">
+              <p>
+                © 2021 Diner. All rights reserved. Design by
+                <a href="">W3Layouts</a>
+              </p>
+            </div>
+            <div class="col-4">
+              <a href=""> Careers </a>
+              <a href="" style="padding-left: 50px"> Privacy Policy </a>
+              <a href="" style="padding-left: 50px"> Contact us </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <img src="./blog-img/1648810245326246d905ebe51.png" />
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

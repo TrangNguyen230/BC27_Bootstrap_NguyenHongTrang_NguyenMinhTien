@@ -18,10 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/error.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
   </head>
   <body>
     <header class="header position-absolute top-0 start-0 w-100" id="home">
@@ -52,12 +52,13 @@
               <i class="fa-solid fa-bars fs-2 text-white"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="./../Home/Home.html">Home</a></li>
+              <li><a class="dropdown-item" href="./../Home/index.html">Home</a></li>
               <li><a class="dropdown-item" href="./../About/index.html">About</a></li>
               <li><a class="dropdown-item" href="./../Service/index.html">Services</a></li>
-              <li><a class="dropdown-item" href="./../Blog/blog.html">Blog</a></li>
-              <li><a class="dropdown-item" href="./../error/error.html">404</a></li>
-              <li><a class="dropdown-item" href="./../Contact/contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="./../Blog/index.html">Blog</a></li>
+              <li><a class="dropdown-item" href="./../error/index.html">404</a></li>
+
+              <li><a class="dropdown-item" href="./../Contact/index.html">Contact</a></li>
 
             </ul>
           </div>
@@ -67,40 +68,108 @@
 
     <section class="carousel">
       <div class="carousel-text">
-        <a href="./../Home/Home.html" style="text-decoration: none"> <b>Home</b> </a>
+        <a href="./../Home/index.html" style="text-decoration: none"> <b>Home</b> </a>
         <i class="fa-solid fa-angle-right" style="margin: 5px"></i>
-        <b>error</b>
+        <b>Contact Us</b>
       </div>
     </section>
     <section class="portfolio">
       <div class="container">
-        <div class="error">
-          <b>4<i class="fa-regular fa-face-frown"></i>4</b>
-        </div>
-        <div class="text">
-          <b>Oops, Page not found!</b>
-          <p>
-            Sorry, we're offline right now to make our site even better.
-            Please,<br />
-            comeback later and check what we've been upto.
-          </p>
-        </div>
-        <input
-          type="text"
-          class="form-control"
-          style="width:25%; float: left"
-          placeholder="Enter your text"
-          aria-label="Subject"
-        />
-        <button class="button">Search</button>
+      <div class="port-head">
+        <h2>Get in touch</h2>
+        <h1><b>Contact Us</b></h1>
+        <p>
+          Start working with Us that can provide everything you need to generate
+          awareness, drive traffic, connect.<br />
+          We guarantee that you’ll be able to have any issue resolved within 24
+          hours.
+        </p>
       </div>
-      <div class="icon-back-to-home">
-        <a href="./../Home/Home.html">
-          <i class="fa-solid fa-arrow-left"></i>
-          <b>Back to home</b>
-        </a>
+      <div class="port-body">
+          <div class="row">
+            <div class="col-md-12 col-lg-4">
+              <input
+                type="text"
+                class="form-control nav-link active"
+                placeholder="Username"
+                aria-label="Username"
+              />
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <input
+                type="text"
+                class="form-control nav-link"
+                placeholder="Email"
+                aria-label="Email"
+              />
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Subject"
+                aria-label="Subject"
+              />
+            </div>
+            <div class="message">
+              <textarea placeholder="message" rows="5"></textarea>
+            </div>
+          </div>
+
+          <button class="button">Send message</button>
+        </div>
+        <div class="address">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-lg-3">
+                <h2>Find Us</h2>
+                <b style="font-size: 35px">Additional Info</b>
+                <div class="phone-number">
+                  <div class="icon-left">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="text-right">
+                    <b>Phone number</b><br /><a href="">+(21) 255 088 4943</a>
+                  </div>
+                </div>
+                <div class="address-email">
+                  <div class="icon-left">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="text-right">
+                    <b>Send Email</b> <br /><a href="">diner@mail.com</a>
+                  </div>
+                </div>
+                <div class="office-address">
+                  <div class="icon-left">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="text-right">
+                    <p>
+                      <b>Office Address</b><br />Address here, 434 Food
+                      <br />Honey street, London, UK - <br />
+                      62617.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-9">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14442.063358705955!2d-0.13313029030327195!3d51.50317292420917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2sus!4v1653291117883!5m2!1svi!2sus"
+                  width="100%"
+                  height="450"
+                  style="border: 5"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <section class="icon" style="display: block">
       <a class="angles-right" href="">
         <i class="fa-solid fa-angles-right"></i>
